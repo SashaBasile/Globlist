@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html,
+body,
+.view {
+  height: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.view {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../resources/globlist.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+.navbar {
+  background-color: #e1b1af;
+  box-shadow: 0px 5px 10px rgba(112, 94, 105, 0.8); }
+
+.navbar-brand {
+  letter-spacing: 0.4cm; }
+
+#globlist {
+  margin-top: 30vh; }
+
+h1 {
+  color: #e1b1af;
+  letter-spacing: 0.4cm;
+  text-shadow: 6px 6px 5px #363535; }
+
+h5, h4 {
+  letter-spacing: 0.1cm;
+  color: floralwhite; }
+
+.btn {
+  color: floralwhite;
+  background-color: #e1b1af;
+  box-shadow: 6px 6px 5px #363535; }
+
+.modal-title {
+  letter-spacing: 0.1cm;
+  color: #e1b1af; }
+
+.modal-header {
+  background-color: rgba(54, 53, 53, 0.8); }
+
+.modal-content {
+  background-color: rgba(63, 63, 63, 0.8);
+  color: floralwhite;
+  letter-spacing: 0.1cm; }
+
+.row-content {
+  position: relative;
+  margin-top: 20%; }
+
+#gps-map {
+  min-width: 200px;
+  max-width: 200px; }
+
+footer {
+  background-color: #363535; }
+  footer p {
+    color: floralwhite;
+    font-size: x-small; }
