@@ -22,18 +22,42 @@
                 <a class="navbar-brand text-white" href="#">GLOBLIST</a>
                 <div class="row">
                     <div class="col-12">
-                        <ul class="navbar-nav" id="navbar">
-                            <li class="nav-item mr-4" role="button">
-                                <a class="nav-link" href="#"></a>About Us
-                            </li>
-                            <li class="nav-item" role="button">
-                                <a class="nav-link" href="#"></a>Support
-                            </li>
-                        </ul>
+                                <span class="navbar-text text-white mr-3" role="button" id="about-btn">About
+                            </span>
+                                <span class="navbar-text text-white" role="button" id="support">Support</span>
                     </div>
                 </div>
             </div>
         </nav>
+
+        <!--Modal About-->
+    <div id="about-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title">
+                        About
+                    </div>
+                    <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body text-center mt-4 mb-5"> 
+                    <h4>Welcome to GLOBLIST <br><br> your first Interactive City List!</h4>
+                
+                    <br>
+                    <p>Do you wanna make sure you don't miss the best spots in the city?
+                        Do you wanna share it with all your friends or maybe just keep it for yourself?
+                        Then, Globlist is for you. Just register an account to start exploring your city map and start
+                        creating your check-in list!</p>
+
+                        <h5>Let's just have fun!</h5>
+<br>
+                        <p><em>with Love,
+<br><br>
+                        SashaB</em></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
         <div class="container align-items-center">
             <div class="row">
@@ -41,7 +65,7 @@
                     <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 fadeInDown">
                         Globlist</h1>
                     <hr class="hr-light my-4">
-                    <h5 class="mb-4 white-text fadeInDown">Welcome to Your Interactive Wishing List</h5>
+                    <h5 class="mb-4 white-text fadeInDown">Welcome to Your Interactive City List</h5>
                     <a role="button" class="btn btn-lg mt-2 mr-3" href="#">Login In</a>
                     <a role="button" class="btn btn-lg mt-2 ml-3" href="#">Register</a>
                 </div>
@@ -53,6 +77,12 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        $('#about-btn').click(function() {
+            $('#about-modal').modal('show');
+        })
+    </script>
 </body>
 
 </html>
