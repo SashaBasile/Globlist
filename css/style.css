@@ -60,7 +60,12 @@ h5, h4 {
   max-width: 200px; }
 
 footer {
-  background-color: #363535; }
+  background-color: rgba(63, 63, 63, 0.8); }
   footer p {
     color: floralwhite;
     font-size: x-small; }
+
+.message {
+  margin-top: 20%; }
+  .message .fa {
+    color: black; }
