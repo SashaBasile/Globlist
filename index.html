@@ -76,7 +76,7 @@
                     <div class="modal-body text-center">
                         <!--FORM CONTENT-->
 
-                        <a type="button" data-target="#registration-modal" data-toggle="modal" href="#registration-modal">Register</a>
+                        <a type="button" id="register-log-modal">Register</a>
                     </div> 
                 </div>
             </div>
@@ -95,7 +95,7 @@
                     <div class="modal-body text-center">
                         <!--FORM CONTENT-->
 
-                        <a type="button" data-target="#login-modal" data-toggle="modal" href="#login-modal">Login In</a>
+                        <a type="button" id="login-reg-modal">Login In</a>
                     </div> 
                 </div>
             </div>
@@ -134,8 +134,18 @@
          $('#login-modal').modal('show');
         })
 
+        $('#register-log-modal').click(function () {
+            $('#login-modal').modal('hide');
+            $('#registration-modal').modal('show');
+        })
+
         $('#register-btn').click(function () {
             $('#registration-modal').modal('show');
+        })
+
+        $('#login-reg-modal').click(function () {
+            $('#registration-modal').modal('hide');
+            $('#login-modal').modal('show');
         })
     </script>
 </body>
