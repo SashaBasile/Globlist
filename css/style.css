@@ -55,6 +55,13 @@ h5, h4 {
   position: relative;
   margin-top: 20%; }
 
+#about-modal {
+  background-color: rgba(63, 63, 63, 0.87); }
+
+#sasha {
+  color: #e1b1af;
+  font-style: italic; }
+
 #gps-map {
   min-width: 200px;
   max-width: 200px; }
