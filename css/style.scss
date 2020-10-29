@@ -1,5 +1,6 @@
 $brand-color: #e1b1af;
 $shadows: 6px 6px 5px rgb(54, 53, 53);
+$shadows-sm-btn: 4px 4px 5px rgb(54, 53, 53);
 $gray-background: rgba(63, 63, 63, 0.80);
 
 * {
@@ -35,26 +36,32 @@ body,
     letter-spacing: 0.4cm;
 }
 
+.globlist-index {
+  color: $brand-color;
+  letter-spacing: 0.4cm;
+  text-shadow: 6px 6px 5px rgb(54, 53, 53);
+}
+
 #globlist {
     margin-top: 30vh;
 }
 
-h1 {
-    color: $brand-color;
-    letter-spacing: 0.4cm;
-    text-shadow: 6px 6px 5px rgb(54, 53, 53);
-}
 
 h5, h4 {
    letter-spacing: 0.1cm;
    color: floralwhite;
 }
 
-.btn {
+.btn-lg {
     color: floralwhite;
     background-color: $brand-color;
     box-shadow: $shadows;
+}
 
+.btn-sm {
+  color: floralwhite;
+  background-color: $brand-color;
+  box-shadow: $shadows-sm-btn;
 }
 
 .modal-title {
@@ -104,3 +111,7 @@ h5, h4 {
         color: black;
       }
   }
+
+.about-section {
+  margin-top: 50px;
+}

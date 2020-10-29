@@ -17,32 +17,46 @@
 
     <!--Menu-->
     <nav class="navbar navbar-dark fixed-top">
-        <div class="container">
+        <div class="dropdown">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto ml-3" href="#"> GLOBLIST </a>
+            <a class="navbar-brand mr-auto ml-3" href="#" data-toggle="modal" data-target="#welcome"> GLOBLIST </a>
             <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="./home.html">
-                            Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./explore.html">Explore <span class="fa fa-search"></span> </a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Support</a>
+                <ul class="navbar-nav mr-auto w-50">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./explore.html">Explore <span
+                                class="fa fa-search"></span> </a></li>
+                    <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link disabled" href="#">Support</a>
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Log Out <span class="fa fa-user"></span></a>
                     </li>
                 </ul>
             </div>
-            <span class="navbar-text">Welcome <span class="fa fa-user fa-lg" role="button"></span></a>
-            </span>
         </div>
     </nav>
 
-    <div class="container">
+
+    <div class="container about-section">
         <div class="row">
             <div class="col mt-5">
-                <h1>About Us</h1>
+                <h1>About</h1>
+            
                 <h3>What is Globlist?</h3>
+                <p>Globlist is an interactive city lists. Why? Have you ever wanted to make sure not to miss the best spots in the city?
+                    Perhaps share it with your friends or create your own personal check-in-lists?
+                    Then, Globlist is for you.
+                    <br>
+                    Explore your city's map and save all the spots you really don't want to miss!</p>
+                
                 <h3>Who am I?</h3>
+                <p>Hi, my name is Sasha and I am an aspiring Developer. <br>
+                This is probably my first real project.
+                    As you can see there is still lot to do and I will keep updating the website while improving my coding
+                    skills and knowledge.
+                    <br>
+                    I hope you will enjoy it as much as I did in creating it! :)
+                </p>
             </div>
         </div>
     </div>

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <title>GLOBLIST</title>
@@ -42,17 +43,15 @@
                         <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
                     </div>
                     <div class="modal-body text-center mt-4 mb-5">
-                        <h4>Welcome to <h1 class="mb-0">GLOBLIST</h1>
+                        <h4>Welcome to <h1 class="mb-0 globlist-index">GLOBLIST</h1>
                         </h4><br>
                         <h4>your first Interactive City List!</h4>
 
                         <br>
-                        <p>Do you wanna make sure you don't miss the best spots in the city?
-                            Do you wanna share it with all your friends or maybe just keep it for yourself?
-                            Then, Globlist is for you. Just register an account to start exploring your city map and
-                            start
-                            creating your check-in list!</p>
-
+                        <p>Do you want to make sure you don't miss the best spots in the city?
+                             Do you want to share them with all your friends or maybe just keep 
+                             them for yourself? Then, Globlist is for you. Just register an account
+                              to start exploring your city map and start creating your check-in list!</p>
                         <h5>Let's just have fun!</h5>
                         <br>
                         <p>with Love,
@@ -75,8 +74,6 @@
                     </div>
                     <div class="modal-body text-center">
                         <!--FORM CONTENT-->
-
-
                         <form>
                         <div class="col-12 mb-2">
                             <label for="email-address">Email Address:</label>
@@ -86,10 +83,10 @@
                                 <label for="password" class="pr-5">Password:</label>
                             <input type="password" id="password" class="fadeIn" name="login" placeholder="Password">
                             </div>
-                            <input type="submit" class="btn fadeIn fourth mb-3 mt-3" value="Log In" href="#"> 
+                            <a role="button" class="btn btn-lg mb-3 mt-3" href="./home.html">Log In</a>
                           </form>
                       
-                          <!-- Remind Passowrd -->
+                          <!-- Bottom alternatives -->
                           <div class="row mt-3">
                               <div class="col-12">
                                 <a class="underlineHover mr-5" href="#">Forgot Password?</a>
@@ -114,11 +111,28 @@
                     <div class="modal-body text-center">
                         <!--FORM CONTENT-->
 
-                        
+                        <form>
+                            <div class="col-12 mb-2">
+                                <label for="email-address">Email Address:</label>
+                                <input type="text" id="email-address" class="ml-5" name="email-address" placeholder="Email Address">
+                                </div>
+                                <div class="col-12 mb-2">
+                                    <label for="password" class="pr-5">Password:</label>
+                                <input type="password" id="password" class="ml-5" name="password" placeholder="Password">
+                                <div class="col-12 mb-2"></div>
+                                <label for="confirm-password">Confirm Password:</label>
+                                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password">
+                                </div>
+                                <a role="button" class="btn btn-lg mb-3 mt-3" href="./home.html">Register</a>
+                              </form>
 
 
-
-                        <a type="button" id="login-reg-modal">Login In</a>
+                            <!-- Bottom alternatives-->
+                            <div class="row mt-3">
+                                <div class="col-12 text-center">
+                        <a type="button" class="underlineHover" id="login-reg-modal">Login In</a>
+                                </div>
+                        </div>
                     </div> 
                 </div>
             </div>
@@ -128,16 +142,17 @@
         <div class="container align-items-center">
             <div class="row">
                 <div class="col-md-12 mb-4 text-center" id="globlist">
-                    <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 fadeInDown">
+                    <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 globlist-index animate__animated animate__fadeInDown animate__delay-1s">
                         Globlist</h1>
                     <hr class="hr-light my-4">
-                    <h5 class="mb-4 white-text fadeInDown">Welcome to Your Interactive City List</h5>
-                    <a id="login-btn" role="button" class="btn btn-lg mt-2 mr-3" href="#">Login In</a>
-                    <a id="register-btn" role="button" class="btn btn-lg mt-2 ml-3" href="#">Register</a>
+                    <h5 class="mb-4 white-text animate__animated animate__fadeInDown animate__delay-1s">Welcome to Your Interactive City List</h5>
+                    <a id="login-btn" role="button" class="btn btn-lg mt-2 mr-3 animate__animated animate__fadeIn animate__delay-2s" href="#">Login In</a>
+                    <a id="register-btn" role="button" class="btn btn-lg mt-2 ml-3 animate__animated animate__fadeIn animate__delay-2s" href="#">Register</a>
                 </div>
             </div>
         </div>
     </div>
+
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>

@@ -22,22 +22,27 @@ body,
 .navbar-brand {
   letter-spacing: 0.4cm; }
 
-#globlist {
-  margin-top: 30vh; }
-
-h1 {
+.globlist-index {
   color: #e1b1af;
   letter-spacing: 0.4cm;
   text-shadow: 6px 6px 5px #363535; }
+
+#globlist {
+  margin-top: 30vh; }
 
 h5, h4 {
   letter-spacing: 0.1cm;
   color: floralwhite; }
 
-.btn {
+.btn-lg {
   color: floralwhite;
   background-color: #e1b1af;
   box-shadow: 6px 6px 5px #363535; }
+
+.btn-sm {
+  color: floralwhite;
+  background-color: #e1b1af;
+  box-shadow: 4px 4px 5px #363535; }
 
 .modal-title {
   letter-spacing: 0.1cm;
@@ -76,3 +81,6 @@ footer {
   margin-top: 20%; }
   .message .fa {
     color: black; }
+
+.about-section {
+  margin-top: 50px; }
